@@ -1,1 +1,35 @@
-//
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+ 
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        div {
+            width: 20%;
+            padding: 20px 5px;
+            margin: 5px 0;
+            border: 1px solid black;
+            li {
+                padding: 10px 0;
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+} 
+

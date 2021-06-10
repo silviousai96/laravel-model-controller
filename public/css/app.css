@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+.container ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.container ul div {
+  width: 20%;
+  padding: 20px 5px;
+  margin: 5px 0;
+  border: 1px solid black;
+}
+
+.container ul div li {
+  padding: 10px 0;
+}
+
+.container ul div li span {
+  font-weight: bold;
+}
+

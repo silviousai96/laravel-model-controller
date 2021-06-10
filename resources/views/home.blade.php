@@ -25,7 +25,7 @@
                     <li> <span>Data:</span> {{ $movie->date }}</li>
     
                     <li> <span>Voto:</span> {{ $movie->vote }}</li>
-                </div>
+            </div>
                                         
             @endforeach
         </ul>
